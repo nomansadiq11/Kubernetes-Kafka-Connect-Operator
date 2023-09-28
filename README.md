@@ -8,14 +8,14 @@ A kubernetes operator to deploy and auto-scale KafkaConnect Application.
 
 ## Project Status
 
-**Project status:** *alpha* 
+**Project status:** *alpha*
 
 **Current API version:** *`v1alpha1`*
 
 ## Prerequisites
 
 - [kubectl][kubectl_tool] version v1.12.0+.
-- Access to a Kubernetes v1.12.0+ cluster.
+- Access to a Kubernetes v1.16.0+ cluster.
 
 ## Deployment
  - Install the CRDS
@@ -36,9 +36,7 @@ For more information, check the [API Specification](docs/api-docs.md).
 
 ## Contributing
 
-Please check [CONTRIBUTING.md](CONTRIBUTING.md) and the [Developer Guide](docs/developer-guide.md) out. 
+Please check [CONTRIBUTING.md](CONTRIBUTING.md) and the [Developer Guide](docs/developer-guide.md) out.
 
 
 [kubectl_tool]:https://kubernetes.io/docs/tasks/tools/install-kubectl/
-
-
